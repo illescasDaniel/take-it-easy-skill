@@ -13,7 +13,9 @@ When active, the agent:
 
 - **Explains each meaningful step in plain language** (a few lines, no jargon) and always says what the **next step**
   is and whether it **needs your confirmation**.
-- **Keeps the big picture visible**: where the task stands overall and why the current step is being done.
+- **Keeps the big picture visible** with a short status at each step: the current **goal**, **where you are** and
+  where you should be, what is **left to develop** (known work) and what is **left to try** (ideas, checks and
+  experiments that are not yet proven).
 - **Warns before risky actions** (migrations, deploys, data changes, publishes, pushes): whether similar changes were
   made before, what could fail, and how to revert, before asking for approval. An approval never carries over.
 - **Hands you exact commands** when it lacks permission, with a plain explanation of what they do and why.
