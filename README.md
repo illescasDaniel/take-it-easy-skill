@@ -18,7 +18,7 @@ When active, the agent:
   made before, what could fail, and how to revert, before asking for approval. An approval never carries over.
 - **Hands you exact commands** when it lacks permission, with a plain explanation of what they do and why.
 - **Never builds a feature without your explicit approval** of what it will build, deferring to a spec-driven skill
-  such as `sdd-feature` when it is installed.
+  such as [`sdd-feature`](https://github.com/illescasDaniel/sdd-feature-skill) when it is installed.
 - **Commits or pushes only when you ask.**
 
 Project rules (`CLAUDE.md` / `AGENTS.md`) always take precedence over the skill. The skill replies in the language you
@@ -54,7 +54,7 @@ session, add a line to your `CLAUDE.md` / `AGENTS.md`: `Use the take-it-easy ski
 This skill is only about *how the agent communicates and avoids surprises*. Other behavior lives elsewhere so each
 piece has one source of truth.
 
-**Skill `sdd-feature`**: for anything that adds or changes a feature, pair this with a Spec-Driven Development skill
+**Skill [`sdd-feature`](https://github.com/illescasDaniel/sdd-feature-skill)**: for anything that adds or changes a feature, pair this with a Spec-Driven Development skill
 that stops for your approval of the design, the spec and the architecture before writing tests and code, then has the
 result graded independently. take-it-easy does not duplicate that workflow; it only makes each gate easier to follow.
 
